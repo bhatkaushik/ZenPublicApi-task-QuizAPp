@@ -15,8 +15,6 @@ let currentQuizno = 0;
 let score = 0;
 let correctAnswer;
 
-loadQuiz();
-
 // function for loading quizdata from UPI
 const loadQuiz = async ()=> {
   try{
@@ -33,6 +31,10 @@ const loadQuiz = async ()=> {
   }
   
 }
+
+loadQuiz();
+
+
 
 // function to display questions and options
 const displayQuestions = (UpiData) => {
