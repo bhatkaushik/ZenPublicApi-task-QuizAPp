@@ -21,3 +21,5 @@ jokeEl.innerHTML = data.joke;
 }
 jokeGenerator();
 jokeBtn.addEventListener('click',jokeGenerator)
+
+console.log("hi")
